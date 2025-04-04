@@ -1,36 +1,18 @@
 import React from "react";
 import "./Timeline.css";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
-//import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import StarRateIcon from "@mui/icons-material/StarRate";
-import { ThemeContext } from "../../Context/theme";
 
 export const Timeline = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
-  const [linecolor, setlinecolor] = React.useState(
-    themename === "light" ? "#23283e" : "#fcfcfc"
-  );
-
-  React.useEffect(() => {
-    if (themename === "dark") {
-      setlinecolor("#fcfcfc");
-    } else {
-      setlinecolor("#23283e");
-    }
-  }, [themename]);
   return (
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
           My <span className="different">Timeline 💫</span>
         </h2>
-        <VerticalTimeline lineColor={linecolor}>
+        <VerticalTimeline lineColor="#fcfcfc">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"Nov 2022 - Present"}

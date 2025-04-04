@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
-import { BsTwitter, BsFillTelephoneFill } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
   return (
@@ -39,9 +39,6 @@ export const Contact = () => {
             rel="noreferrer"
           >
             <BsTwitter className="twitter" />
-          </a>
-          <a href="tel:+91 9152218814" target="_blank" rel="noreferrer">
-            <BsFillTelephoneFill className="phone" />
           </a>
         </div>
       </div>

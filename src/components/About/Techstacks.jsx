@@ -4,7 +4,6 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  //SiMaterialui,
   SiExpress,
   SiRedis
 } from "react-icons/si";
@@ -55,10 +54,6 @@ export const Techstacks = () => {
             <SiRedis />
             <h5>Redis</h5>
           </div>
-          {/* <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
-          </div> */}
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>

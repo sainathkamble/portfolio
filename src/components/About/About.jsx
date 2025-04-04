@@ -4,8 +4,6 @@ import { Type } from "./Type";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import DescriptionIcon from "@mui/icons-material/Description";
 import PublicIcon from "@mui/icons-material/Public";
 import { Introduction } from "./Introduction";
@@ -22,7 +20,7 @@ export const About = () => {
         <Type />
         <p className="about__desc" data-aos="fade-right">
           A passionate Full Stack Software Developer having an experience of
-          building Web applications with JavaScript / Reactjs / Nodejs / MongoDb
+          building Web applications with MERN stcak / Django / Spring
           and some other cool libraries and frameworks.
         </p>
         <div className="about__contact center">
@@ -43,15 +41,6 @@ export const About = () => {
             className="link link--icon"
           >
             <EmailIcon />
-          </a>
-          <a
-            href="tel:+91 9152218814"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="github"
-            className="link link--icon"
-          >
-            <PhoneIcon />
           </a>
           <a
             href="https://www.linkedin.com/in/sainathkamble/"

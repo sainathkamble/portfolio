@@ -1,6 +1,5 @@
 import React from "react";
 import "./Introduction.css";
-//import ExitToAppIcon from "@mui/icon-material/ExitToApp";
 
 export const Introduction = () => {
   return (
@@ -13,13 +12,13 @@ export const Introduction = () => {
           <div className="introduction">
             <div className="introduction_logocontainer">
               <img
-                src="./favicon.ico"
+                src="./favicon.jpeg"
                 alt="Images"
               />
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, I am{" "}
+                Hi, I am{" "}
                 <span className="different">Sainath Kamble </span> from{" "}
                 <span className="different"> Mumbai, Maharashtra, India</span>. I am
                 currently pursuing graduation in Bachelor of Engineering from

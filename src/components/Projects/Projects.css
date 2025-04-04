@@ -1,13 +1,15 @@
 .projects_container {
     width: 100%;
     margin: 0 auto;
+    background-color: #23283e;
   }
   
   .project {
     width: 100%;
     /* height: 70vh; */
     margin: 6% 0% 6% 0%;
-    box-shadow: var(--shadow);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     display: flex;
     border-radius: 30px;
     transition: all 0.5s ease 0s;
@@ -29,7 +31,7 @@
   .project_videocontainer > div {
     width: 90%;
     height: 90%;
-    border: 10px solid var(--clr-primary);
+    border: 10px solid #90a0d9;
     border-radius: 30px;
   }
   .project_videocontainer > div > img {
@@ -50,7 +52,7 @@
   }
   .project_information > h2 {
     margin-top: 1em;
-    color: var(--clr-primary);
+    color: #90a0d9;
   }
   .project_information > p {
     margin-top: 1em;
@@ -65,7 +67,7 @@
   .project_information > div:nth-child(3) > svg {
     font-size: 3em;
     margin: 2% 3% 2% 3%;
-    color: var(--clr-primary);
+    color: #90a0d9;
     transition: all 0.2s ease-in-out;
   }
   
@@ -82,7 +84,7 @@
   }
   .project_information > h3 {
     margin-top: 1.6em;
-    color: var(--clr-primary);
+    color: #90a0d9;
   }
   .project_information::-webkit-scrollbar {
     display: none;

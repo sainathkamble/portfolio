@@ -1,13 +1,7 @@
 import React from "react";
-import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
-import Brightness2Icon from "@mui/icons-material/Brightness2";
-import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
 
 export const Navbar = () => {
-  const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
 
   const toggleNavList = (id) => {
@@ -81,23 +75,6 @@ export const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button
-          type="button"
-          onClick={toggeltheme}
-          className="btn btn--icon nav__theme"
-          aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
-        >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-        </button>
-        <button
-          type="button"
-          onClick={toggleNavList}
-          className="btn btn--icon nav__hamburger"
-          aria-label="toggle navigation"
-        >
-          {showNavList ? <CloseIcon /> : <MenuIcon />}
-        </button>
       </nav>
     </>
   );

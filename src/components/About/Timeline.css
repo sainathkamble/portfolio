@@ -1,18 +1,21 @@
 .mainsection {
     width: 100%;
+    /* background-color: #23283e; */
   }
   
   .mainsection > :nth-child(1) {
     margin-bottom: 2em;
+    color: #90a0d9
   }
   
   .vertical-timeline-element-subtitle {
     margin-top: 0.5em;
     font-size: 0.9em;
+    color: #90a0d9
   }
   
   .vertical-timeline-element-title {
     font-size: 1.1em;
-    color: var(--clr-primary);
+    color: #90a0d9;
   }
   

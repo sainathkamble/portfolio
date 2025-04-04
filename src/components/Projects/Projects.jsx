@@ -1,13 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
-import {
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiChai,
-  SiEthereum,
-  SiTailwindcss,
-} from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 export const Projects = () => {
   return (
     <>
@@ -20,8 +14,8 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/6r42XGx/Kryptobuzz.png"
-                  alt="KryptoBuzz"
+                  src="./f1projectimage.jpg"
+                  alt="F1 Streaming Platform"
                 />
               </div>
             </div>
@@ -33,11 +27,6 @@ export const Projects = () => {
               </p>
               <div>
                 <FaReact />
-                <SiBlockchaindotcom />
-                <SiEthereum />
-                <FaHardHat />
-                <SiChai />
-                <SiHtml5 />
                 <SiTailwindcss/>
               </div>
               <div>

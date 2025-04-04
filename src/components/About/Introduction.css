@@ -3,10 +3,11 @@
     display: flex;
     margin-top: 4em;
     margin-bottom: 4em;
+    background-color: #23283e;
   }
   
   .different {
-    color: var(--clr-primary);
+    color: #90a0d9;
   }
   
   .introduction_logocontainer {
@@ -42,7 +43,7 @@
   .icons {
     position: relative;
     top: 5px;
-    color: var(--clr-fg-alt);
+    color: #cdcdff;
     margin-right: 0.5em;
   }
   

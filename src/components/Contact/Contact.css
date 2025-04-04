@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 2em;
+    background-color: #23283e;
   }
   
   .contactcontainer svg {
     font-size: 3em;
     transition: all 0.5s ease-in-out 0s;
-    color: var(--clr-primary);
+    color: #90a0d9;
   }
   .contactcontainer svg:hover {
     font-size: 4rem;
