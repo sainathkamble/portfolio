@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "./contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsTwitter } from "react-icons/bs";

@@ -1,6 +1,6 @@
 import React from "react";
-import { Navbar } from "../Navbar/Navbar";
-import "./Header.css";
+import { Navbar } from "../Navbar/navbar.jsx";
+import "./header.css";
 export const Header = () => {
   return (
     <>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Techstacks.css";
+import "./techstacks.css";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,

@@ -1,10 +1,9 @@
 .about {
     flex-direction: column;
     margin-top: 3em;
-    background-color: #23283e;
   }
   .about__name {
-    color: #90a0d9;
+    color: #90a0d9;;
   }
   .about > :nth-child(2) {
     margin-top: 1.2em;
@@ -16,7 +15,6 @@
   .about__desc {
     font-size: 1rem;
     max-width: 70%;
-    color: #90a0d9
   }
   
   .about__desc,
@@ -43,4 +41,3 @@
       font-size: 1.5rem;
     }
   }
-  

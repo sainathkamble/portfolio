@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-import "./ScrollToTop.css";
+import "./scrolltotop.css";
 
 export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);

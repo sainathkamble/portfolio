@@ -1,14 +1,13 @@
 import React from "react";
-import "./About.css";
-import { Type } from "./Type.jsx";
+import "./about.css";
+import { Type } from "./type.jsx";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import DescriptionIcon from "@mui/icons-material/Description";
-// import PublicIcon from "@mui/icons-material/Public";
-import { Introduction } from "./Introduction.jsx";
-import { Timeline } from "./Timeline.jsx";
-import { Techstacks } from "./Techstacks.jsx";
+import { Introduction } from "./introduction.jsx";
+import { Timeline } from "./timeline.jsx";
+import { Techstacks } from "./techstacks.jsx";
 
 export const About = () => {
   return (
