@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../Navbar/navbar.jsx";
+import { Navbar } from "../Navbar/navbarCompo.jsx";
 import "./header.css";
 export const Header = () => {
   return (

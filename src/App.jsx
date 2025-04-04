@@ -1,13 +1,13 @@
 import React from "react";
-import { Header } from "./Components/Header/header.jsx";
+import { Header } from "./Components/Header/headerCompo.jsx";
 import "./App.css";
-import { About } from "./Components/About/about.jsx";
+import { About } from "./Components/About/aboutCompo.jsx";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Projects } from "./Components/Projects/projects.jsx";
-import { Contact } from "./Components/Contact/contact.jsx";
-import { Footer } from "./Components/Footer/footer.jsx";
-import { ScrollToTop } from "./Components/ScrollToTop/scrolltotop.jsx"
+import { Projects } from "./Components/Projects/projectsCompo.jsx";
+import { Contact } from "./Components/Contact/contactCompo.jsx";
+import { Footer } from "./Components/Footer/footerCompo.jsx";
+import { ScrollToTop } from "./Components/ScrollToTop/scrolltotopCompo.jsx"
 
 export default function App() {
   React.useEffect(() => {
