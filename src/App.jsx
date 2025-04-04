@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "./components/header/header.jsx";
+import { Header } from "./components/header/headerCompo.jsx";
 import "./App.css";
 import { About } from "./components/about/aboutCompo.jsx";
 import Aos from "aos";
