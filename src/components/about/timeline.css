@@ -1,0 +1,27 @@
+.mainsection {
+    width: 100%;
+    /* background-color: #23283e; */
+    --clr-bg: #23283e;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd; 
+  --clr-fg-alt: #cdcdff;
+  --clr-primary: #90a0d9;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  .mainsection > :nth-child(1) {
+    /* margin-bottom: 2em; */
+    color: #90a0d9
+  }
+  
+  .vertical-timeline-element-subtitle {
+    /* margin-top: 0.5em; */
+    font-size: 0.9em;
+    color: #90a0d9
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 1.1em;
+    color: #90a0d9;
+  }

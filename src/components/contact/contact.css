@@ -1,0 +1,22 @@
+.contactcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    background-color: #23283e;
+  }
+  
+  .contactcontainer p {
+    font-size: 1.5rem;
+    transition: all 0.5s ease-in-out 0s;
+    color: #90a0d9;
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 600px) {
+    .contactcontainer svg {
+      font-size: 2em;
+    }
+    .contactcontainer svg:hover {
+      font-size: 3rem;
+    }
+  }
