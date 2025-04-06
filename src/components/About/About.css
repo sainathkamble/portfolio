@@ -3,7 +3,7 @@
     margin-top: 3em;
   }
   .about__name {
-    color: #90a0d9;;
+    color: #90a0d9;
   }
   .about > :nth-child(2) {
     margin-top: 1.2em;
@@ -13,13 +13,16 @@
   }
   
   .about__desc {
-    font-size: 1rem;
+    font-size: 1.4rem;
     max-width: 70%;
+    margin-top: 2em;
+    color: #90a0d9;
+    text-align: center;
   }
   
-  .about__desc,
   .about__contact {
-    margin-top: 2.4em;
+    margin-top: 2em;
+    font-size: 2rem;
   }
   
   .about .link--icon {

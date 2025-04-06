@@ -6,6 +6,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import StarRateIcon from "@mui/icons-material/StarRate";
 
 export const Timeline = () => {
+
   return (
     <>
       <div className="section mainsection">

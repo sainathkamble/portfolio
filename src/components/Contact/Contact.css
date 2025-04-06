@@ -5,28 +5,12 @@
     background-color: #23283e;
   }
   
-  .contactcontainer svg {
-    font-size: 3em;
+  .contactcontainer p {
+    font-size: 1.5rem;
     transition: all 0.5s ease-in-out 0s;
     color: #90a0d9;
-  }
-  .contactcontainer svg:hover {
-    font-size: 4rem;
-  }
-  .linkedin:hover {
-    color: #0a66c2;
-  }
-  .github:hover {
-    color: black;
-  }
-  .email:hover {
-    color: #d93025;
-  }
-  .twitter:hover {
-    color: rgb(29, 155, 240);
-  }
-  .phone:hover {
-    color: rgb(49, 236, 49);
+    display: flex;
+    align-items: center;
   }
   @media (max-width: 600px) {
     .contactcontainer svg {

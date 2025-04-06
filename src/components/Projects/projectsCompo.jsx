@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
-import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { SiRedux, SiTailwindcss, SiMui, SiExpress, SiMongodb } from 'react-icons/si';
 export const Projects = () => {
   return (
     <>
@@ -27,7 +27,12 @@ export const Projects = () => {
               </p>
               <div>
                 <FaReact />
-                <SiTailwindcss/>
+                <SiTailwindcss />
+                <SiMui />
+                <SiRedux />
+                <FaNodeJs />
+                <SiExpress />
+                <SiMongodb />
               </div>
               <div>
                 <a
